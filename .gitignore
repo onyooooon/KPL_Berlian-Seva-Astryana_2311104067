@@ -3,6 +3,15 @@
 ##
 ## Get latest from https://github.com/github/gitignore/blob/main/VisualStudio.gitignore
 
+# Ignore Visual Studio folder
+.vs/
+
+*.sln
+*.vcxproj
+*.vcxproj.filters
+bin/
+obj/
+
 # User-specific files
 *.rsuser
 *.suo
