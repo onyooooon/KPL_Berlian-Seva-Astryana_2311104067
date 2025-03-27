@@ -9,7 +9,7 @@ class Program
         for (int i = 1; i <= 10; i++)
         {
             SayaTubeVideo video = new SayaTubeVideo($"Review Film {i} oleh Berlian Seva Astryana");
-            video.IncreasePlayCount(100000); 
+            video.IncreasePlayCount(100000);
             user.AddVideo(video);
         }
 
